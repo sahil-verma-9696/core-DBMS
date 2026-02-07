@@ -1,0 +1,1 @@
+# 07/02/2026 - Problems in storing data.
