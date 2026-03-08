@@ -1,0 +1,24 @@
+# Design Alternatives
+
+In designing a database schema, we must ensure that we avoid two major
+pitfalls
+
+- **1. Redundancy** 
+  - storing the same information multiple times unnecessarily.
+  - Normalization solves this by separating entities and linking them with IDs.
+
+| offering_id | course_id | course_title                | semester    |
+| ----------- | --------- | --------------------------- | ----------- |
+| 1           | CS101     | Introduction to Programming | Fall 2025   |
+| 2           | CS101     | Introduction to Programming | Spring 2026 |
+| 3           | CS101     | Introduction to Programming | Fall 2026   |
+
+
+- **2. Incompletness**
+  - Here Incompletness refer the NULL Introduced due to adding new information or data in table.
+  
+| offering_id | course_id | course_title    | semester |
+| ----------- | --------- | --------------- | -------- |
+| NULL        | CS205     | Data Structures | NULL     |
+
+
