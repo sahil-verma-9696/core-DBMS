@@ -9,4 +9,8 @@
 
 # 08/03/2026 -
     - 7.1.2 Design Alternatives.
-    - 7.2 E-R Modeling.(will continue)
+    - 7.2 E-R Modeling.
+
+# 10/03/2026 -
+    - Entity set
+    - Relationship set(will continue)
